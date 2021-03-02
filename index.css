@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+body{
+    margin: 0;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+#header img {
+    width: 10%;
+    margin-left: 50px;
+}
+#header a{
+    margin: 30px;
+    text-decoration: none;
+    color: #bfbdbc;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-weight: 600;
+}
+#header .active-link {
+    border-bottom: 2px solid #5243c0;
+    color: #000;
+}
+#header button{
+    background-color: #FFD8DB;
+    border: none;
+    width: 120px;
+    height: 45px;
+    border-radius: 17px;
+    margin-right: 50px;
+    color: #5946C6;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+    outline: 0;
+}
+#landing-image {
+    margin-top: 40px;
+    margin-right: 100px;
+    float: right;
+    width: 600px;
+}
+#main-container {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+#main-container h1 {
+    margin: 0;
+    font-size: 70px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.3;
+}
+#full-stop{
+    font-family: 'Oswald', sans-serif;
+    color: #5243c0;
+}
+#main-container p{
+    margin-bottom: 20px;
+    color: #625e5d;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+button{
+    border: none;
+    outline: 0;
+}
+#button-arrows{
+    margin-bottom: 30px;
+}
+#account-btn {
+    display: inline-block;
+    background-color: #5243c0;
+    width: 130px;
+    height: 45px;
+    color: #fff;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+    border-radius: 17px;
+    margin-right: 20px;
+}
+
+#button-arrows img{
+    height: 45px;
+}
+.icon {
+    display: inline-block;
+    width: 22px;
+    height: 12px;
+    border-radius: 30%;
+    margin: 10px;
+}
+#icon-pink {
+    background-color: #FED7DA; 
+}
+#icon-red {
+    background-color: #FD6534; 
+}
+#icon-green {
+    background-color: #9FD197; 
+}
+#icon-orange {
+    background-color: #FFE4A1; 
+}
+ul{
+    display: inline-block;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    background-color: #F6F6F6;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+li .fa-check-circle {
+    font-size: 30px;
+    color: #e2e2e2;
+    margin-left: 10px;
+}
+li .account-type{
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+}
+li img {
+    height: 30px;
+    margin-left: 20px;
+}
+li .date {
+    color: #B3B3B1;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+li .active {
+        color: #5243c0;
+}
+#active-list{
+    background-color: #fff;
+    transform: scale(1,1);
+    box-shadow: 2px 3px 20px #B3B3B1;
+}
